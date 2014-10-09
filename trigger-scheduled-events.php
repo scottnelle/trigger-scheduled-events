@@ -26,7 +26,7 @@ Author URI:  http://scottnelle.com
 
 /* create the menu item */
 function trigger_scheduled_event_create_menu() {
-	add_submenu_page( 'tools.php', 'Trigger Scheduled Event', 'Trigger Scheduled Event', 'manage_options', 'trigger_scheduled_event', 'trigger_scheduled_event_tools_page');
+	add_submenu_page( 'tools.php', 'Trigger Scheduled Events', 'Scheduled Events', 'manage_options', 'trigger_scheduled_event', 'trigger_scheduled_event_tools_page');
 }
 add_action('admin_menu', 'trigger_scheduled_event_create_menu', 99);
 
